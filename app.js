@@ -35,7 +35,7 @@ app.use(session({
 }))
 
 app.use(flash());
-app.use(expressValidator());
+// app.use(expressValidator());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
